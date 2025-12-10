@@ -1,9 +1,9 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { CartProvider } from './contexts/CartContext';
-import ItemsList from './components/ItemsList';
-import Cart from './components/Cart';
-import './styles.css';
+// import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { CartProvider } from "./contexts/CartContext";
+import ItemsList from "./components/ItemsList";
+import Cart from "./components/Cart";
+import "./styles.css";
 
 function App() {
   return (
@@ -25,4 +25,3 @@ function App() {
 }
 
 export default App;
-
